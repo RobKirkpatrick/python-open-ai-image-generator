@@ -4,7 +4,7 @@ import openai
 openai.api_key = 'YOUR_API_KEY'
 #openai.Model.list()
 
-#response = openai.Image.create(
+response = openai.Image.create(
   prompt="a baby panda",
   n=1,
   size="1024x1024"
